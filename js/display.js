@@ -95,7 +95,7 @@ var count = 0;
 $(document).on('change','.checkbox', function() {
     if(this.checked) {
         count++;
-        alert(count);
+        
         checkCounter();
     }
     else{
